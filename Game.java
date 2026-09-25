@@ -36,6 +36,7 @@ public class Game {
         }
 
         System.out.println(playerScore > computerScore ? "You win the match!" : "Computer wins the match!");
+        System.out.println("Thanks for playing!");
         scanner.close();
     }
 
