@@ -45,7 +45,7 @@ public class Game {
     }
 
     private static String getResult(String player, String computer) {
-        if (player.equals(computer)) return "It's a tie!";
+        if (player.equals(computer)) return "It's a tie, play again!";
         boolean playerWins =
             (player.equals("rock") && computer.equals("scissors")) ||
             (player.equals("paper") && computer.equals("rock")) ||
