@@ -11,6 +11,7 @@ public class Game {
         int playerScore = 0, computerScore = 0;
 
         System.out.println("=== Rock, Paper, Scissors — Best of 3 ===");
+        System.out.println("Rules: rock beats scissors, scissors beats paper, paper beats rock.");
 
         while (playerScore < 2 && computerScore < 2) {
             System.out.print("Your move (rock/paper/scissors): ");
